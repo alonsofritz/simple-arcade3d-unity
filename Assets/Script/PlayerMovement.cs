@@ -26,10 +26,10 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(0, 0, fowardForce * Time.deltaTime);   // Add a force of 2000 on the z-axis
 
         if ( Input.GetKey("d") ) {
-            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
         if ( Input.GetKey("a") ) {
-            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
+            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
     }
 }
