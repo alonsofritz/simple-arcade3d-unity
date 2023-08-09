@@ -1,4 +1,4 @@
-# Cubethon
+# Cubecade
 ## Simple Arcade Game 3D
 A simple 3d arcade game using Unity to learn and develop new game development skills. 🕹️
 
